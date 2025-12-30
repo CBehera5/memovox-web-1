@@ -1,26 +1,63 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --font-inter: "Inter", sans-serif;
+
+  /* Space Theme (Dark Mode) */
+  --background: #0a0a0e;
+  /* Deep Space Black */
+  --foreground: #ffffff;
+  /* White Text */
+
+  --primary: #6366f1;
+  /* Indigo 500 */
+  --primary-foreground: #ffffff;
+
+  --secondary: #8b5cf6;
+  /* Violet 500 */
+  --secondary-foreground: #ffffff;
+
+  --accent: #ec4899;
+  /* Pink 500 */
+  --accent-foreground: #ffffff;
+
+  --muted: #1e1e24;
+  --muted-foreground: #a1a1aa;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.glass {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-gradient {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #6366f1, #8b5cf6, #ec4899);
+  /* Indigo -> Violet -> Pink */
 }
