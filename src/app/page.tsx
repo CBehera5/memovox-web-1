@@ -4,6 +4,8 @@ import { HeroSection } from "@/components/landing/hero-section";
 import { PrivacySection } from "@/components/landing/privacy-section";
 import { FeaturesSection } from "@/components/landing/features-section";
 import { TestimonialsSection } from "@/components/landing/testimonials-section";
+import { PricingSection } from "@/components/landing/pricing-section";
+import { BlogSection } from "@/components/landing/blog-section";
 import { CtaSection } from "@/components/landing/cta-section";
 import { StarBackground } from "@/components/ui/star-background";
 
@@ -15,7 +17,9 @@ export default function Home() {
       <HeroSection />
       <PrivacySection />
       <FeaturesSection />
+      <PricingSection />
       <TestimonialsSection />
+      <BlogSection />
       <CtaSection />
       <Footer />
     </main>

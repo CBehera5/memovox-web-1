@@ -105,17 +105,17 @@ export default function PrivacyPolicyPage() {
               </thead>
               <tbody className="divide-y divide-gray-800">
                 <tr className="bg-black/20">
-                  <td className="p-4 font-medium text-white">Groq AI</td>
+                  <td className="p-4 font-medium text-white">AI Processing Providers</td>
                   <td className="p-4 text-gray-400">Transcription & AI Intelligence</td>
-                  <td className="p-4 text-gray-400">Processes voice audio (temporarily) and text for analysis. Data is <strong className="text-white">NOT</strong> stored permanently by Groq.</td>
+                  <td className="p-4 text-gray-400">Processes voice audio (temporarily) and text for analysis. Data is <strong className="text-white">NOT</strong> stored permanently by these providers.</td>
                 </tr>
                 <tr className="bg-black/20">
-                  <td className="p-4 font-medium text-white">Supabase</td>
+                  <td className="p-4 font-medium text-white">Cloud Database Services</td>
                   <td className="p-4 text-gray-400">Database & Authentication</td>
                   <td className="p-4 text-gray-400">Stores account info and encrypted memo data. SOC 2 Type II certified.</td>
                 </tr>
                 <tr className="bg-black/20">
-                  <td className="p-4 font-medium text-white">Expo</td>
+                  <td className="p-4 font-medium text-white">App Infrastructure Services</td>
                   <td className="p-4 text-gray-400">App Infrastructure</td>
                   <td className="p-4 text-gray-400">Collects anonymous usage stats and crash reports (if enabled).</td>
                 </tr>

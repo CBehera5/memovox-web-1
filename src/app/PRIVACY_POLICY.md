@@ -41,9 +41,9 @@ We partner with trusted services to deliver our features. Here is what they rece
 
 | Service | Purpose | Data Handled |
 | :--- | :--- | :--- |
-| **Groq AI** | Transcription & AI Intelligence | Processes voice audio (temporarily) and text for analysis. Data is **NOT** stored permanently by Groq. |
-| **Supabase** | Database & Authentication | Stores account info and encrypted memo data. SOC 2 Type II certified. |
-| **Expo** | App Infrastructure | Collects anonymous usage stats and crash reports (if enabled). |
+| **AI Processing Providers** | Transcription & AI Intelligence | Processes voice audio (temporarily) and text for analysis. Data is **NOT** stored permanently by these providers. |
+| **Cloud Database Services** | Database & Authentication | Stores account info and encrypted memo data. SOC 2 Type II certified. |
+| **App Infrastructure Services** | App Infrastructure | Collects anonymous usage stats and crash reports (if enabled). |
 
 ---
 

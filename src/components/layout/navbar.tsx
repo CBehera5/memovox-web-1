@@ -44,6 +44,12 @@ export function Navbar() {
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-8">
+            <Link href="#pricing" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+              Pricing
+            </Link>
+            <Link href="#blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+              Blog
+            </Link>
             <Link href="#features" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
               Features
             </Link>
@@ -85,6 +91,20 @@ export function Navbar() {
             className="md:hidden absolute top-full left-0 right-0 p-4"
           >
             <div className="bg-zinc-900/95 backdrop-blur-xl rounded-2xl border border-white/10 p-6 flex flex-col gap-4 shadow-2xl">
+              <Link
+                href="#pricing"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-lg font-medium text-foreground hover:text-primary"
+              >
+                Pricing
+              </Link>
+              <Link
+                href="#blog"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-lg font-medium text-foreground hover:text-primary"
+              >
+                Blog
+              </Link>
               <Link
                 href="#features"
                 onClick={() => setIsMobileMenuOpen(false)}
