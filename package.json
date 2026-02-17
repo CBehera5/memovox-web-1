@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cd portfolio && npm run dev",
-    "build": "cd portfolio && npm run build",
-    "start": "cd portfolio && npm run start",
+    "dev": "cd portfolio && npm install && npm run dev",
+    "build": "cd portfolio && npm install && npm run build",
+    "start": "cd portfolio && npm install && npm run start",
     "lint": "eslint"
   },
   "dependencies": {
